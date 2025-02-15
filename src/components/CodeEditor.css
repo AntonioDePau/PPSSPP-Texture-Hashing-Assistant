@@ -1,0 +1,25 @@
+.CodeEditor {
+  font-size: 0.5em;
+  text-align: initial;
+}
+
+.CodeEditor .prism-code-editor {
+  width: 90vw;
+  height: 60vh;
+  background-color: #242424 !important;
+  border-radius: 10px;
+}
+
+.CodeEditor .line-numbers .line-numbers-rows {
+  border-right: 1px solid #9999996b;
+}
+
+.CodeEditor-buttons {
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+}
+
+.CodeEditor-buttons .Button {
+  margin: 0em 1em;
+}

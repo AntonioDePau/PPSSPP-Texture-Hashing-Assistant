@@ -1,0 +1,33 @@
+.ProgressBar {
+  position: relative;
+  width: 10em;
+  height: 1.6em;
+  z-index: 1;
+  border-radius: 0.3em;
+  overflow: hidden;
+  padding: 0.3em 0.5em;
+}
+
+.ProgressBar-progress, .ProgressBar-background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.ProgressBar-percent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ProgressBar-background {
+  background: grey;
+  box-shadow: inset -1px 1px 5px 1px #000000b0;
+}
+
+.ProgressBar-progress {
+  box-shadow: 1px 1px 4px 0px #000000b0;
+}

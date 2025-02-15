@@ -1,0 +1,10 @@
+.PPSSPPHasher-editor {
+  font-size: 0.5em;
+}
+
+.PPSSPPHasher-editor pre {
+  width: 90vw;
+  height: 80vh;
+  background-color: #242424 !important;
+  border-radius: 10px;
+}

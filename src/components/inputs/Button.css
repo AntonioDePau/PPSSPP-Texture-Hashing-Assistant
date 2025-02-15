@@ -1,0 +1,36 @@
+.Button {
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  background-color: steelblue;
+  border: 0.1em solid steelblue;
+  cursor: pointer;
+  user-select: none;
+  transition:
+    background-color 150ms ease-in-out,
+    color 150ms ease-in-out
+  ;
+  width: fit-content;
+}
+
+.Button.delete {
+  background-color: orange;
+  border: 0.1em solid orange;
+}
+
+.Button.execute {
+  background-color: #ff50ff;
+  border: 0.1em solid #ff50ff;
+}
+
+.Button:hover {
+  background-color: transparent;
+  color: steelblue;
+}
+
+.Button.delete:hover {
+  color: orange;
+}
+
+.Button.execute:hover {
+  color: #ff50ff;
+}

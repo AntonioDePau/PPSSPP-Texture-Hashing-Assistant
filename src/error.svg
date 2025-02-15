@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: #ff0000 } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<g id="error">
+		<path id="red-circle" fill-rule="evenodd" class="s0" d="m32 61c-16 0-29-13-29-29 0-16 13-29 29-29 16 0 29 13 29 29 0 16-13 29-29 29z"/>
+		<path id="cross" class="s1" d="m48.6 20.4c1.4-1.4 1.4-3.6 0-5-1.4-1.4-3.6-1.4-5 0l-11.6 11.6-11.6-11.6c-1.4-1.4-3.6-1.4-5 0-1.4 1.4-1.4 3.6 0 5l11.6 11.6-11.6 11.6c-1.4 1.4-1.4 3.6 0 5 1.4 1.4 3.6 1.4 5 0l11.6-11.6 11.6 11.6c1.4 1.4 3.6 1.4 5 0 1.4-1.4 1.4-3.6 0-5l-11.6-11.6z"/>
+	</g>
+</svg>
